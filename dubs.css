@@ -6,7 +6,7 @@
 .one{
     height: 6vh;
     display: flex;
-    background-color:azure;
+    background-color:white;
     text-align: center;
     padding: 2px;
     justify-content: space-between;
@@ -25,6 +25,7 @@ list-style-type: none;
     text-decoration: none;
     padding-right: 20px;
     color: black;
+    text-transform:capitalize ;
 }
 .one button{
     background-color:red;
@@ -34,4 +35,67 @@ list-style-type: none;
     text-align: center;
     border: 0;
     
+}
+.one button:hover{
+    color: red;
+    background-color: white;
+    outline: 1px solid black;
+    transition:1s ease-in-out;
+    
+}
+.one img{
+    height: 7vh;
+}
+.two{
+    background-color: bisque;
+    height: 60vh;
+    width: 100%;
+}
+
+
+
+.three img{
+    object-fit: cover;
+    transform: translate(815px,0px);
+    height:40vh ;
+    
+}
+.four img{
+    height:30vh;
+    object-fit: cover;
+    transform: translate(0px,-50px);
+    
+}
+.five img{
+    height: 150px;
+    width: 20%;
+    object-fit: cover;
+    transform: translate(0px,-350px);
+}
+.six{
+    justify-content: center;
+    transform: translate(250px,-400px);
+}
+.seven{
+    padding:20px;
+    transform: translate(250px,0px);
+    
+}
+.eight{
+    /* border: 1px solid red; */
+    width: 18rem;
+    padding: 5px;
+    margin: 10px;
+    
+}
+.eight img{
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 2;
 }
